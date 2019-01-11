@@ -22,6 +22,12 @@
         <activity android:name=".activity.WheatherActivity">
 
         </activity>
+        <service android:name="com.juliana.coolweather.service.AutoUpdateService">
+
+        </service>
+        <receiver android:name="com.juliana.coolweather.receiver.AutoUpdateReceiver">
+
+        </receiver>
     </application>
 
 </manifest>
